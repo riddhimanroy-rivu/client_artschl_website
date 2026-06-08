@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#003366" stroke-width="3"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#003366" stroke-width="2"/>
+  
+  <!-- Top text -->
+  <path id="topCurve" d="M 30,100 A 70,70 0 0,1 170,100" fill="none"/>
+  <text font-size="16" font-weight="bold" fill="#C41E3A" letter-spacing="2">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">
+      WE NOT ONLY CREATE ART
+    </textPath>
+  </text>
+  
+  <!-- Bottom text -->
+  <path id="bottomCurve" d="M 170,100 A 70,70 0 0,1 30,100" fill="none"/>
+  <text font-size="14" font-weight="bold" fill="#C41E3A" letter-spacing="1">
+    <textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">
+      ART CREATE US
+    </textPath>
+  </text>
+  
+  <!-- Main "A" logo -->
+  <text x="100" y="120" font-size="80" font-weight="bold" fill="#C41E3A" text-anchor="middle" font-family="Georgia, serif">
+    A
+  </text>
+  <text x="135" y="125" font-size="50" fill="#C41E3A" font-family="Georgia, serif">ine</text>
+  
+  <!-- Center phone number -->
+  <text x="100" y="150" font-size="12" fill="#003366" text-anchor="middle" font-family="monospace">
+    9831090796
+  </text>
+</svg>
