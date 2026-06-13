@@ -62,7 +62,7 @@ export default function Home() {
               <span className="text-gold-300 text-sm font-medium">Kolkata's Premier Art School</span>
             </div>
             <h1 className="font-display text-5xl md:text-7xl font-bold text-white mb-6 animate-slide-up leading-tight">
-              ARTLINE
+              ART-LINE
               <span className="block text-gold-400 text-3xl md:text-4xl mt-2">Fine Arts & Drawing School</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 animate-slide-up font-light" style={{ animationDelay: '0.2s' }}>
@@ -73,7 +73,7 @@ export default function Home() {
                 Apply for Admission <ArrowRight className="w-5 h-5" />
               </Link>
               <a
-                href="https://wa.me/919051349496?text=Hello%20Sir%2C%20I%20would%20like%20to%20inquire%20about%20ARTLINE%20classes."
+                href="https://wa.me/919831090796?text=Hello%20Sir%2C%20I%20would%20like%20to%20inquire%20about%20ART-LINE%20classes."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:-translate-y-0.5 flex items-center gap-2"
@@ -110,12 +110,12 @@ export default function Home() {
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="section-title mb-6">Welcome to ARTLINE</h2>
+            <h2 className="section-title mb-6">Welcome to ART-LINE</h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              At ARTLINE, we believe every person has an artist within. Our mission is to unlock that creative potential through structured, inspiring, and enjoyable art education. Under the guidance of our founder Amit Roy, we have helped hundreds of students discover their artistic voice.
+              At ART-LINE, we believe every person has an artist within. Our mission is to unlock that creative potential through structured, inspiring, and enjoyable art education. Under the guidance of our founder Amit Roy, we have helped hundreds of students discover their artistic voice.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Whether you are a complete beginner or an experienced artist looking to refine your skills, ARTLINE provides the perfect environment for artistic growth. Our small class sizes ensure personalized attention, and our comprehensive curriculum covers everything from basic sketching to advanced painting techniques.
+              Whether you are a complete beginner or an experienced artist looking to refine your skills, ART-LINE provides the perfect environment for artistic growth. Our small class sizes ensure personalized attention, and our comprehensive curriculum covers everything from basic sketching to advanced painting techniques.
             </p>
             <Link to="/about" className="btn-primary inline-flex items-center gap-2">
               Learn More About Us <ArrowRight className="w-4 h-4" />
@@ -140,7 +140,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="section-title mb-4">Explore ARTLINE</h2>
+            <h2 className="section-title mb-4">Explore ART-LINE</h2>
             <p className="section-subtitle mx-auto">Everything you need to start your artistic journey</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -292,7 +292,7 @@ export default function Home() {
               Start Your Artistic Journey Today
             </h2>
             <p className="text-blue-100 text-lg mb-8 max-w-xl mx-auto">
-              Join ARTLINE and discover the artist within you. New batch starting soon!
+              Join ART-LINE and discover the artist within you. New batch starting soon!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/admission" className="btn-gold text-lg">Apply for Admission</Link>

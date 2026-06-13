@@ -10,10 +10,10 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="/assets/artline-logo.svg"
-                alt="ARTLINE Logo"
+                alt="ART-LINE Logo"
                 className="w-10 h-10 object-contain"
               />
-              <span className="font-display text-2xl font-bold">ARTLINE</span>
+              <span className="font-display text-2xl font-bold">ART-LINE</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Nurturing Creativity Through Art. Professional fine arts and drawing education in Kolkata since 2015.
@@ -72,7 +72,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0 text-gold-400" />
-                <span>+91 9051349496</span>
+                <span>+91 9831090796</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0 text-gold-400" />
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} ARTLINE Fine Arts & Drawing School. All rights reserved.
+            &copy; {new Date().getFullYear()} ART-LINE Fine Arts & Drawing School. All rights reserved.
           </p>
           <Link to="/admin" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
             Admin Portal

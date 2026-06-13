@@ -74,8 +74,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-royal-800">Phone</h3>
                   <div className="space-y-1 mt-1">
-                    <a href="tel:+919051349496" className="block text-gray-600 text-sm hover:text-royal-600 transition-colors">
-                      Amit Roy: +91 9051349496
+                    <a href="tel:+919831090796" className="block text-gray-600 text-sm hover:text-royal-600 transition-colors">
+                      Amit Roy: +91 9831090796
                     </a>
                   </div>
                 </div>
@@ -110,14 +110,14 @@ export default function Contact() {
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://wa.me/919051349496?text=Hello%20Sir%2C%20I%20would%20like%20to%20inquire%20about%20ARTLINE%20classes."
+                href="https://wa.me/919831090796?text=Hello%20Sir%2C%20I%20would%20like%20to%20inquire%20about%20ART-LINE%20classes."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-semibold transition-all flex items-center gap-2 text-sm"
               >
                 <MessageCircle className="w-4 h-4" /> WhatsApp
               </a>
-              <a href="tel:+919051349496" className="btn-outline text-sm flex items-center gap-2">
+              <a href="tel:+919831090796" className="btn-outline text-sm flex items-center gap-2">
                 <Phone className="w-4 h-4" /> Call Now
               </a>
             </div>
@@ -180,7 +180,7 @@ export default function Contact() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="ARTLINE Location"
+            title="ART-LINE Location"
             className="w-full"
           />
         </div>

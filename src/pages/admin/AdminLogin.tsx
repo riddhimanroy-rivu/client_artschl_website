@@ -35,7 +35,7 @@ export default function AdminLogin() {
             <Palette className="w-8 h-8 text-gold-400" />
           </div>
           <h1 className="font-display text-3xl font-bold text-royal-800">Admin Portal</h1>
-          <p className="text-gray-500 mt-2">ARTLINE Management System</p>
+          <p className="text-gray-500 mt-2">ART-LINE Management System</p>
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-8">

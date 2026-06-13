@@ -74,7 +74,7 @@ export default function Admission() {
           <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
           <h2 className="font-display text-3xl font-bold text-royal-800 mb-4">Application Submitted!</h2>
           <p className="text-gray-600 mb-6">
-            Thank you for applying to ARTLINE. We have received your admission form. Our team will contact you shortly to confirm your enrollment.
+            Thank you for applying to ART-LINE. We have received your admission form. Our team will contact you shortly to confirm your enrollment.
           </p>
           <p className="text-sm text-gray-400">You will receive a confirmation on your provided contact number.</p>
         </div>
@@ -87,7 +87,7 @@ export default function Admission() {
       <section className="bg-gradient-hero py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-white mb-4">Online Admission</h1>
-          <p className="text-blue-100 text-xl">Fill the form below to apply for admission at ARTLINE</p>
+          <p className="text-blue-100 text-xl">Fill the form below to apply for admission at ART-LINE</p>
         </div>
       </section>
 

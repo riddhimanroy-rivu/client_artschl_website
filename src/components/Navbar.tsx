@@ -43,12 +43,12 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2 group">
             <img
               src="/assets/artline-logo.svg"
-              alt="ARTLINE Logo"
+              alt="ART-LINE Logo"
               className="w-12 h-12 object-contain hover:scale-105 transition-transform"
             />
             <div className="hidden sm:block">
               <span className="font-display text-lg md:text-xl font-bold text-royal-800 tracking-tight">
-                ARTLINE
+                ART-LINE
               </span>
               <span className="text-[9px] text-royal-500 font-medium -mt-0.5 tracking-wider uppercase">
                 Fine Arts School

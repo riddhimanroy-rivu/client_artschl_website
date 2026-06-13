@@ -144,7 +144,7 @@ export default function Payment() {
           <div className="bg-gray-50 rounded-lg p-4 inline-block">
             <p className="text-royal-700 font-mono text-sm">Contact school for UPI details</p>
           </div>
-          <p className="text-gray-400 text-xs mt-3">After payment, please send screenshot to +91 9051349496 on WhatsApp for confirmation</p>
+          <p className="text-gray-400 text-xs mt-3">After payment, please send screenshot to +91 9831090796 on WhatsApp for confirmation</p>
         </div>
       </section>
     </div>

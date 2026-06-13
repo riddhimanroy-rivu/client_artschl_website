@@ -7,7 +7,7 @@ export default function About() {
       {/* Hero */}
       <section className="bg-gradient-hero py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-display text-4xl md:text-6xl font-bold text-white mb-4">About ARTLINE</h1>
+          <h1 className="font-display text-4xl md:text-6xl font-bold text-white mb-4">About ART-LINE</h1>
           <p className="text-blue-100 text-xl max-w-2xl mx-auto">Discover our story, our mission, and the passion that drives us to nurture creativity</p>
         </div>
       </section>
@@ -18,7 +18,7 @@ export default function About() {
           <div>
             <h2 className="section-title mb-6">Our Story</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              ARTLINE was founded with a simple yet powerful vision: to provide quality art education that is accessible, enjoyable, and transformative. What began as a small drawing class in Thakurpukur has grown into one of Kolkata's most respected fine arts schools.
+              ART-LINE was founded with a simple yet powerful vision: to provide quality art education that is accessible, enjoyable, and transformative. What began as a small drawing class in Thakurpukur has grown into one of Kolkata's most respected fine arts schools.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               Over the years, we have trained more than 500 students, many of whom have gone on to win awards, pursue careers in art and design, and develop a lifelong passion for creativity. Our approach combines traditional techniques with modern teaching methods to create a learning experience that is both structured and inspiring.
@@ -73,7 +73,7 @@ export default function About() {
           </div>
           <div className="p-8">
             <p className="text-gray-600 leading-relaxed mb-4">
-              Amit Roy is the heart and soul of ARTLINE. With over a decade of experience in art education, Amit Sir has dedicated his career to helping students discover and develop their artistic abilities. His unique teaching methodology combines structured skill-building with creative exploration, ensuring that every student receives both technical guidance and artistic freedom.
+              Amit Roy is the heart and soul of ART-LINE. With over a decade of experience in art education, Amit Sir has dedicated his career to helping students discover and develop their artistic abilities. His unique teaching methodology combines structured skill-building with creative exploration, ensuring that every student receives both technical guidance and artistic freedom.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               Known for his patience, encouragement, and deep knowledge of various art forms, Amit Sir creates a learning environment where students feel confident to experiment and grow. Under his mentorship, many students have won state and national level art competitions.
@@ -85,11 +85,11 @@ export default function About() {
         </div>
       </section>
 
-      {/* Why Choose ARTLINE */}
+      {/* Why Choose ART-LINE */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="section-title mb-4">Why Choose ARTLINE?</h2>
+            <h2 className="section-title mb-4">Why Choose ART-LINE?</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -115,7 +115,7 @@ export default function About() {
       {/* CTA */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <Link to="/admission" className="btn-primary text-lg inline-flex items-center gap-2">
-          Join ARTLINE Today <Award className="w-5 h-5" />
+          Join ART-LINE Today <Award className="w-5 h-5" />
         </Link>
       </section>
     </div>
