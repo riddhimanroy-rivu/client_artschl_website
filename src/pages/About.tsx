@@ -65,8 +65,8 @@ export default function About() {
         </div>
         <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="bg-gradient-royal p-8 text-center">
-            <div className="w-28 h-28 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-4 border-4 border-gold-400">
-              <GraduationCap className="w-14 h-14 text-gold-400" />
+            <div className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gold-400 overflow-hidden shadow-lg">
+              <img src="/assets/image.png" alt="Amit Roy" className="w-full h-full object-cover object-top" />
             </div>
             <h3 className="font-display text-3xl font-bold text-white">Amit Roy</h3>
             <p className="text-gold-300 text-lg mt-1">Founder & Head Teacher</p>
