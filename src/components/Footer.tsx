@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/assets/artline-logo.svg"
+                src="/assets/artline-logo.jpg"
                 alt="ART-LINE Logo"
                 className="w-10 h-10 object-contain"
               />

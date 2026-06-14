@@ -42,7 +42,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2 group">
             <img
-              src="/assets/artline-logo.svg"
+              src="/assets/artline-logo.jpg"
               alt="ART-LINE Logo"
               className="w-12 h-12 object-contain hover:scale-105 transition-transform"
             />
