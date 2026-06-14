@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 
 interface GalleryItem {
   id: string;
@@ -53,6 +53,19 @@ export default function Gallery() {
       </section>
 
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Google Drive Link */}
+        <div className="text-center mb-12">
+          <p className="italic text-lg text-gray-600 mb-4">enjoy going through our work environments</p>
+          <a
+            href="https://drive.google.com/drive/folders/1XHVTBJYhiGBDHCjcFQQyjHillkUGbfWN?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-royal-600 text-white font-semibold rounded-xl hover:bg-royal-700 transition-colors shadow-md hover:shadow-lg"
+          >
+            <ExternalLink className="w-5 h-5" />
+            View Full Gallery on Google Drive
+          </a>
+        </div>
         {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-2 mb-10">
           {categories.map((cat) => (
