@@ -8,8 +8,10 @@ export default function AdminDashboard() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
-      if (!data.user) navigate('/admin');
+    supabase.auth.getUser().then(async ({ data }) => {
+      if (!data.user) { navigate('/admin'); return; }
+      const { data: adminRow } = await supabase.from('admin_users').select('id').maybeSingle();
+      if (!adminRow) { await supabase.auth.signOut(); navigate('/admin'); }
     });
 
     const fetchStats = async () => {

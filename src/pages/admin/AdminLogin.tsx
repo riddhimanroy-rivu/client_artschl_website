@@ -23,6 +23,14 @@ export default function AdminLogin() {
       return;
     }
 
+    const { data: adminRow } = await supabase.from('admin_users').select('id').maybeSingle();
+    if (!adminRow) {
+      await supabase.auth.signOut();
+      setError('Access denied. This account does not have admin privileges.');
+      setLoading(false);
+      return;
+    }
+
     navigate('/admin/dashboard');
     setLoading(false);
   };
